@@ -1,0 +1,28 @@
+print('hello world')
+print ('what is your name')
+myName=input()
+print('nice to meet u,'+myName)
+print('length of your name is ')
+print(len(myName))
+print('what is your age?')
+myAge=input()
+print('you will be '+str(int(myAge)+1)+' in a year.')
+if myName=='preeti':
+    print('you are a chubby girl')
+else:
+    print('hello'+myName)
+
+
+# Write a short program that prints the numbers 1 to 10 using a for loop. Then write an equivalent program that prints the numbers 1 to 10 using a while loop.
+print('now we will print numbers 1 to 10')
+i=1
+while i<11:
+    print (i)
+    i=i+1
+    
+    
+
+
+#now in for loop same thing 11 to 20
+#for num in range(11,20):
+ #   print (num)
